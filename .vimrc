@@ -12,6 +12,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'w0rp/ale'
+Plugin 'dracula/vim'
 
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
 
@@ -30,7 +31,7 @@ set hls
 
 "case-insensitive search
 set ignorecase
-colorscheme darkblue
+colorscheme dracula
 filetype plugin on
 filetype indent on
 au BufEnter *.tex set autowrite
